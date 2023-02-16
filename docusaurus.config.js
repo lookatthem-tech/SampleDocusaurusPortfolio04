@@ -7,11 +7,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Documentation Portfolio',
-  tagline: 'by Ryan Rader01',
+  tagline: 'by Ryan Rader',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://lookatthem-tech.github.io/SampleDocusaurusPortfolio03',
+  url: 'https://lookatthem-tech.github.io/SampleDocusaurusPortfolio04',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'lookatthem-tech', // Usually your GitHub org/user name.
-  projectName: 'SampleDocusaurusPortfolio03', // Usually your repo name.
+  projectName: 'SampleDocusaurusPortfolio04', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
