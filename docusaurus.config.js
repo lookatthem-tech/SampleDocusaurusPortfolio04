@@ -20,6 +20,7 @@ const config = {
   projectName: 'SampleDocusaurusPortfolio04', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  GIT_USER: 'lookatthem-tech',
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -132,5 +133,5 @@ const config = {
     }),
 };
 
-USE_SSH: true,
+
 module.exports = config;
