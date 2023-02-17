@@ -8,7 +8,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Documentation Portfolio',
   tagline: 'by Ryan Rader',
-  favicon: 'img/favicon.ico',
   // Set the production url of your site here
   url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -16,10 +15,13 @@ const config = {
   baseUrl: '/lookatthem-tech.github.io/',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'lookatthem-tech', // Usually your GitHub org/user name.
-  projectName: 'SampleDocusaurusPortfolio04', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
+  organizationName: 'lookatthem-tech', // Usually your GitHub org/user name.
+  projectName: 'SampleDocusaurusPortfolio04', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  
   
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
