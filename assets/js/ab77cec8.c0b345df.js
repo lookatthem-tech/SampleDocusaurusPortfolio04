@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8901],{2373:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/lookatthem-tech.github.io/blog/tags/hello","allTagsPath":"/lookatthem-tech.github.io/blog/tags","count":2}')}}]);
