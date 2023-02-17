@@ -12,12 +12,13 @@ const config = {
   url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/SampleDocusaurusPortfolio04/',
+  baseUrl: '/lookatthem-tech.github.io/',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
+  favicon: 'img/favicon.ico',  
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  
   organizationName: 'lookatthem-tech', // Usually your GitHub org/user name.
   projectName: 'SampleDocusaurusPortfolio04', // Usually your repo name.
   // Even if you don't use internalization, you can use this field to set useful
