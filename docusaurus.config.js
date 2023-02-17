@@ -18,7 +18,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'lookatthem-tech', // Usually your GitHub org/user name.
   projectName: 'SampleDocusaurusPortfolio04', // Usually your repo name.
-  USE_SSH: true,
+  use_ssh: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   // Even if you don't use internalization, you can use this field to set useful
