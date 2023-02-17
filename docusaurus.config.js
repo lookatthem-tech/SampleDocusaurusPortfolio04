@@ -20,7 +20,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'lookatthem-tech', // Usually your GitHub org/user name.
   projectName: 'SampleDocusaurusPortfolio04', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
+  
   
   
   // Even if you don't use internalization, you can use this field to set useful
