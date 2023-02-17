@@ -29,6 +29,20 @@ const config = {
     locales: ['en'],
   },
 
+
+module.exports = {
+  // ...
+  url: 'https://github.com', // Your website URL
+  baseUrl: '/SampleDocusaurusPortfolio04/',
+  projectName: 'SampleDocusaurusPortfolio04',
+  organizationName: 'lookatthem-tech',
+  GIT_USER: 'lookatthem-tech',
+  trailingSlash: false,
+  // ...
+};
+
+
+
   presets: [
     [
       'classic',
