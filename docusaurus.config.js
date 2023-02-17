@@ -13,14 +13,14 @@ const config = {
   url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/SampleDocusaurusPortfolio04/',
+  baseUrl: '/lookatthem-tech.github.io/',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'lookatthem-tech', // Usually your GitHub org/user name.
   projectName: 'SampleDocusaurusPortfolio04', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  GIT_USER: 'lookatthem-tech',
+  
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -30,16 +30,7 @@ const config = {
   },
 
 
-module.exports = {
-  
-  url: 'https://github.com', // Your website URL
-  baseUrl: '/SampleDocusaurusPortfolio04/',
-  projectName: 'SampleDocusaurusPortfolio04',
-  organizationName: 'lookatthem-tech',
-  GIT_USER: 'lookatthem-tech',
-  trailingSlash: false,
-  
-};
+
 
 
 
