@@ -16,7 +16,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   favicon: 'img/favicon.ico',  
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: 'true',
   organizationName: 'lookatthem-tech', // Usually your GitHub org/user name.

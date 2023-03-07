@@ -4,7 +4,7 @@ title: API docs
 
 # API docs
 
-I have created a lot of documentation for developers over the years. I have also taken several courses about how to create API docs.	
+I have TTTEEEEESSSTTTTTTTT created a lot of documentation for developers over the years. I have also taken several courses about how to create API docs.	
 
 Please browse the following sections to see examples of things I’ve done in the areas of API docs, Docs-As-Code tools, github versioning and deployment, jekyll, and sphinx.
 
