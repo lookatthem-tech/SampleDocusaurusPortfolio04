@@ -1,3 +1,7 @@
+---
+title: Collaborate with anyone, anywhere, any time
+---
+
 # Collaborate with anyone, anywhere, any time
 
 That's a lot to promise you — that you can collaborate with anyone... anywhere... any time. But Prysm makes that promise and fulfills it for you! Here's how:
