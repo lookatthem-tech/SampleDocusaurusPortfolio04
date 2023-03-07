@@ -18,7 +18,7 @@ const config = {
   favicon: 'img/favicon.ico',  
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  trailingSlash: 'true',
+  
   organizationName: 'lookatthem-tech', // Usually your GitHub org/user name.
   projectName: 'SampleDocusaurusPortfolio04', // Usually your repo name.
   deploymentBranch: 'gh-pages',
