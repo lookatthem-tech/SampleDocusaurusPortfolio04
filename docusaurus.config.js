@@ -46,13 +46,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -66,7 +60,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Portfolio for Ryan',
+        title: 'Portfolio by Ryan',
         logo: {
           alt: 'My Site Logo',
           src: 'img/DocusaurusRyanLogo.png',
@@ -74,19 +68,49 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'Software/software',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Software',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            type: 'doc',
+            docId: 'Hardware/hardware',
+            position: 'left',
+            label: 'Hardware',
           },
+          {
+            type: 'doc',
+            docId: 'Developers/developers',
+            position: 'left',
+            label: 'Developers',
+          },
+          {
+            type: 'doc',
+            docId: 'API Docs/API Docs',
+            position: 'left',
+            label: 'API docs',
+          },
+          {
+            type: 'doc',
+            docId: 'Book Publishing/book publishing',
+            position: 'left',
+            label: 'Book Publishing',
+          },
+          {
+            type: 'doc',
+            docId: 'More/more',
+            position: 'left',
+            label: 'More!',
+          },
+         // {to: '/blog', label: 'Blog', position: 'left'},
+         // {
+          //  href: 'https://github.com/facebook/docusaurus',
+          //  label: 'GitHub',
+          //  position: 'right',
+         // },
         ],
       },
-      footer: {
+      /** footer: {
         style: 'dark',
         links: [
           {
@@ -131,6 +155,7 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
+*/
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
