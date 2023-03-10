@@ -68,37 +68,37 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: '01-Software/software',
+            docId: 'Software/software',
             position: 'left',
             label: 'Software',
           },
           {
             type: 'doc',
-            docId: '02-Hardware/hardware',
+            docId: 'Hardware/hardware',
             position: 'left',
             label: 'Hardware',
           },
           {
             type: 'doc',
-            docId: '03-Developers/developers',
+            docId: 'Developers/developers',
             position: 'left',
             label: 'Developers',
           },
           {
             type: 'doc',
-            docId: '04-API Docs/API Docs',
+            docId: 'API Docs/API Docs',
             position: 'left',
             label: 'API docs',
           },
           {
             type: 'doc',
-            docId: '05-Book Publishing/book publishing',
+            docId: 'Book Publishing/book publishing',
             position: 'left',
             label: 'Book Publishing',
           },
           {
             type: 'doc',
-            docId: '06-More/more',
+            docId: 'More/more',
             position: 'left',
             label: 'More!',
           },

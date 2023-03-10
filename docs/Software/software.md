@@ -1,4 +1,8 @@
-# Software
+---
+sidebar_position: 2
+---
+
+# Software docs
 
 This section contains examples of my documentation for one software company.
 

@@ -1,5 +1,5 @@
 ---
-title: API docs
+sidebar_position: 5
 ---
 
 # API docs
