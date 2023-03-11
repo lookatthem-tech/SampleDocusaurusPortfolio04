@@ -17,7 +17,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   favicon: 'img/favicon.ico',  
   onBrokenLinks: 'ignore',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'ignore',
   
   // organizationName: 'lookatthem-tech', // Usually your GitHub org/user name.
   // projectName: 'SampleDocusaurusPortfolio04', // Usually your repo name.

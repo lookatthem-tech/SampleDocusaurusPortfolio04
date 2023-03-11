@@ -1,0 +1,230 @@
+---
+sidebar_position: 1
+---
+
+# Prerequisites and Installation Guide Flowcharts
+
+<p>
+The Prysm Application Appliance and Prysm Application
+Suite software are configured to default factory
+settings. Additional field configurations are
+necessary to reflect the integration and functional
+requirements for each customer. Before configuring the
+Application Appliance, review this section and gather
+all necessary materials.
+</p>
+<h2>Prerequisites</h2>
+<p>
+Field installation and support personnel must be
+familiar with the following applications and
+procedures:
+</p>
+<ul>
+<li>
+Prysm Digital Workplace and touch sensor
+installation and operation
+</li>
+<li>
+Microsoft Windows 8.1 and Windows 10 desktops,
+applications, directory structure, navigation, text
+editing through Notepad{" "}
+</li>
+<li>
+Nvidia control panel for navigating display
+resolutions settings
+</li>
+<li>
+Basic Prysm Application Suite end user functions
+</li>
+<li>
+Salesforce access for viewing and editing the
+Application Appliance Installation Record
+</li>
+<li>
+VLC, VNC, and Windows network configuration process
+</li>
+<li>VC or Video Conferencing Integration</li>
+<li>
+Third-Party Applications Integration
+<br />
+<ul>
+<li>File Storage Provider Integration</li>
+<li>Skype for Business™ (S4B) Integration</li>
+<li>Identity Provider (IdP) Integration</li>
+<li>Active Directory Integration</li>
+<li>Google Drive Integration</li>
+</ul>
+</li>
+</ul>
+<h2> Prysm Application Suite Required Network Ports</h2>
+<p>
+To establish the appropriate connections for Prysm
+Application Suite operation, the minimum requirements
+for ports are shown in the following tables.
+</p>
+<h3>
+Prysm Application Suite for Prysm Hosted Cloud Service
+Ports
+</h3>
+<table
+style={{
+mcTableStyle:
+'url("../../../Resources/TableStyles/UKGTableStylesheet01.css")'
+}}
+className="TableStyle-UKGTableStylesheet01"
+cellSpacing={0}
+>
+<thead>
+<tr className="TableStyle-UKGTableStylesheet01-Head-Header1">
+<th className="TableStyle-UKGTableStylesheet01-HeadE-Column1-Header1">
+Port ID
+</th>
+<th className="TableStyle-UKGTableStylesheet01-HeadE-Column1-Header1">
+Description of Use
+</th>
+<th className="TableStyle-UKGTableStylesheet01-HeadD-Column1-Header1">
+Notes
+</th>
+</tr>
+</thead>
+<tbody>
+<tr className="TableStyle-UKGTableStylesheet01-Body-Body1">
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body1">
+443
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body1">
+API
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyD-Column1-Body1">
+Secure Connection (https)
+</td>
+</tr>
+<tr className="TableStyle-UKGTableStylesheet01-Body-Body2">
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body2">
+80 and 8080
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body2">
+Standard Web Traffic
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyD-Column1-Body2">
+Cloud Access
+</td>
+</tr>
+<tr className="TableStyle-UKGTableStylesheet01-Body-Body1">
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body1">
+587
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body1">
+Outbound Email
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyD-Column1-Body1">
+Share Email Feature
+</td>
+</tr>
+<tr className="TableStyle-UKGTableStylesheet01-Body-Body2">
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body2">
+12201
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body2">
+Logging
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyD-Column1-Body2">
+Cloud Access
+</td>
+</tr>
+<tr className="TableStyle-UKGTableStylesheet01-Body-Body1">
+<td className="TableStyle-UKGTableStylesheet01-BodyB-Column1-Body1">
+5999
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyB-Column1-Body1">
+Device Sharing Service
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyA-Column1-Body1">
+Cloud Access
+</td>
+</tr>
+</tbody>
+</table>
+<h3>
+Prysm Application Suite for Customer Hosted Server
+(On-Premise) Ports
+</h3>
+<table
+style={{
+mcTableStyle:
+'url("../../../Resources/TableStyles/UKGTableStylesheet01.css")'
+}}
+className="TableStyle-UKGTableStylesheet01"
+cellSpacing={0}
+>
+<thead>
+<tr className="TableStyle-UKGTableStylesheet01-Head-Header1">
+<th className="TableStyle-UKGTableStylesheet01-HeadE-Column1-Header1">
+Port ID
+</th>
+<th className="TableStyle-UKGTableStylesheet01-HeadE-Column1-Header1">
+Description of Use
+</th>
+<th className="TableStyle-UKGTableStylesheet01-HeadD-Column1-Header1">
+Notes
+</th>
+</tr>
+</thead>
+<tbody>
+<tr className="TableStyle-UKGTableStylesheet01-Body-Body1">
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body1">
+443
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body1">
+API
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyD-Column1-Body1">
+Customer Hosted Cloud Server
+</td>
+</tr>
+<tr className="TableStyle-UKGTableStylesheet01-Body-Body2">
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body2">
+4433
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body2">
+Admin
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyD-Column1-Body2">
+Prysm Web Admin (https)
+</td>
+</tr>
+<tr className="TableStyle-UKGTableStylesheet01-Body-Body1">
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body1">
+80 and 8080
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body1">
+Standard Web Traffic
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyD-Column1-Body1">
+Server Access
+</td>
+</tr>
+<tr className="TableStyle-UKGTableStylesheet01-Body-Body2">
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body2">
+587
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyE-Column1-Body2">
+Outbound Email
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyD-Column1-Body2">
+Share Email Feature
+</td>
+</tr>
+<tr className="TableStyle-UKGTableStylesheet01-Body-Body1">
+<td className="TableStyle-UKGTableStylesheet01-BodyB-Column1-Body1">
+5757
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyB-Column1-Body1">
+Logging
+</td>
+<td className="TableStyle-UKGTableStylesheet01-BodyA-Column1-Body1">
+Customer Hosted Cloud Server
+</td>
+</tr>
+</tbody>
+</table>
