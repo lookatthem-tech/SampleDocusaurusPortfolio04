@@ -1,7 +1,7 @@
 ﻿---
 sidebar_position: 6
 ---
-# **Deploying licenses for CHC environments**
+# Deploying licenses for CHC environments
 Access to Prysm is managed through licenses. The process for deploying licenses in Customer Hosted Cloud environments is different from Prysm Hosted Cloud license deployments.
 
 In the Prysm Hosted Cloud environment, licenses are automatically applied to accounts from the Prysm licensing server. In Customer Hosted Cloud environments, you must import an entitlement key and assign licenses to users. The entitlement key defines the features and licenses that a customer has purchased and activates the VM or Collaboration Server with the Prysm Licensing Server.

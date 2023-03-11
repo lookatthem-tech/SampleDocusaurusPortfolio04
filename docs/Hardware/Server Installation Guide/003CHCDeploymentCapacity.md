@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# **CHC deployment capacity**
+# CHC deployment capacity
 When a Prysm Customer Hosted Cloud is deployed with the minimum required server settings (as described in [VM Requirements](002CHCPrereqs.htm#VMRequirements)), the following capacity is supported:
 
 - 100 attached Prysm appliances.

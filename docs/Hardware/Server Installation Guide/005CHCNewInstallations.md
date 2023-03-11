@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# **Performing a new installation of CHC Server**
+# Performing a new installation of CHC Server
 After all of the prerequisites have been met, follow these steps to install the Prysm Customer Hosted Cloud - Application Server package:
 
 

@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# **Configuring a new account**
+# Configuring a new account
 **Warning:** This section applies to only new installations. If you are upgrading from server 2.2 or 2.3.1, don't follow these steps.
 
 After a new installation of the Prysm server, you must create an account, create a user with organizational administrator rights, and create deployments for the appliances in your environment.
@@ -44,8 +44,8 @@ An Org\_Admin user is the technical point of contact for Prysm at a customer sit
 
 
 1. From the **Customer Hosted Cloud - Application Server Deployment Package**, edit the **SynthesisSettingsManager.exe.config** file in notepad.
-   1. Locate the **<connectionString>** section of **SettingsDataContext** as highlighted in the following image:
-   1. Change the **source=localhost** line to **source=<IP Address of the DB Server> or DNS Address of the DB Server**. (For example, source=192.168.11.46).
+   1. Locate the **connectionString** section of **SettingsDataContext** as highlighted in the following image:
+   1. Change the **source=localhost** line to **source=IP Address of the DB Server or DNS Address of the DB Server**. (For example, source=192.168.11.46).
    1. Replace integrated security=True; with User ID=SQL User;Password=sql\_password;
       where the **SQL User** and **sql\_password** are the **dbowner** credentials for the SQL server database (scroll left as needed to see the entire field).
       You must use SQL authentication for this account.

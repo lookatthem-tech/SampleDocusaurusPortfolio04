@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# **Prerequisites for setting up a CHC**
+# Prerequisites for setting up a CHC
 This section covers the prerequisite steps and requirements prior to installing and configuring a Prysm Application Server, such as configuring DNS entries, granting forward access to certain ports, and setting up a Virtual Machine (VM) in accordance with the minimum recommended requirements.
 
 - Prysm recommends that the entire host is dedicated to the VM, with the minimum required cores assigned to the host. 

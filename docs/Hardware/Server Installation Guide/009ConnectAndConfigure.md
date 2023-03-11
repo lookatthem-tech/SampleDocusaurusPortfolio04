@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# **Configuring the appliance for the CHC server**
+# Configuring the appliance for the CHC server
 To confirm an appliance configuration and deployment to a CHC server environment, complete these procedures (which are detailed in the following sections):
 
 1. Connect NIC1 of the appliance to the CHC server.
