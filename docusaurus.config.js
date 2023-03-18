@@ -9,10 +9,10 @@ const config = {
   title: 'Documentation Portfolio',
   tagline: 'by Ryan Rader',
   // Set the production url of your site here
-     url: 'https://lookatthem-tech.surge.sh/',
+     url: 'https://lookatthem-tech.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-     baseUrl: '/',
+     baseUrl: '/DocusaurusPortfolio/',
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   favicon: 'img/favicon.ico',  
