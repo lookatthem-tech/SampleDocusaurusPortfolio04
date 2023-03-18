@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Software docs
+# Company one docs
 
 This section contains examples of my documentation for one software company.
 

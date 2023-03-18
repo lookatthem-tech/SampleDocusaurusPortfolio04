@@ -10,7 +10,11 @@ Please browse the following sections to see examples of things I’ve done in th
 
 ## Github site example
 
-To further demonstrate my capabilities to work with modern developer doc tools, I used github to build, edit, version, and deploy this portfolio site that you are currently viewing.
+To further demonstrate my capabilities to work with modern developer doc tools, I used github to build, edit, version, and deploy [my full portfolio site](https://lookatthem-tech.github.io/portfolio005/Content/Topics/HomePgG.htm).
+
+## Docusaurus example
+
+I created the portfolio you're currently viewing to demonstrate my capabilities with writing, editing, styling (CSS), building, and deploying Docusaurus sites. To see some examples of API docs that I created with Docusaurus, select Next to go to the next page.
 
 ## Jekyll example
 

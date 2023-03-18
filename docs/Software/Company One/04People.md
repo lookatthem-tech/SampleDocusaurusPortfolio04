@@ -5,7 +5,7 @@
 1. Go to the **Microsoft Store for Business**. [businessstore.microsoft.com/en-us/store](https://businessstore.microsoft.com/en-us/store)
 2. Sign in with your company credentials. Prysm is available in your company store.
 
-![figure 1](pfd001.png)
+   ![figure 1](pfd001.png)
 
 3. Click **Prysm Sharing Agent**.
  Clicking Prysm Sharing Agent to install it before you install Prysm is the fastest method for installation.

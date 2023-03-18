@@ -5,7 +5,8 @@
 1.  Go to the **Microsoft Store for Business**.  
     [businessstore.microsoft.com/en-us/store](https://businessstore.microsoft.com/en-us/store)<a name="InstalliingPFD"></a>
 2.  Sign in with your company credentials.  
-    Prysm is available in your company store.  
+    Prysm is available in your company store.
+ 
     ![figure 1](pfd001.png)  
 
 3.  Click **Prysm Sharing Agent**.  
@@ -17,22 +18,32 @@ If you don't install Prysm Sharing Agent, you won't be able to use [Prysm for de
 
 :::
 
-4.  Click **Install**.  
+4.  Click **Install**. 
+ 
     ![figure 2](pfd002.png)  
+
     Microsoft prompts you to open the Microsoft Store app.
-5.  Click **Open Microsoft Store**.  
+5.  Click **Open Microsoft Store**. 
+ 
     ![figure 3](pfd003.png)
+
 6.  In the Microsoft Store app, click **Install** again.  
     The Prysm Sharing Agent downloads and installs.
 7.  Click **Launch**.  
+
     ![figure 4](pfd004.png)  
+
     The Microsoft Store app automatically takes you to the page to install the Prysm app.  
+
     ![figure 5](pfd005.png)
+
 8.  Click **Install** to install Prysm for desktop.  
     Prysm for desktop downloads and installs.  
 
 9.  Click **Launch**.  
+
     ![figure 6](pfd006.png)  
+
     Prysm for desktop opens, and you have access to all of its sharing features!  
 
 ## Opening Prysm for desktop

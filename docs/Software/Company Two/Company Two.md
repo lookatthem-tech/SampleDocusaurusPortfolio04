@@ -1,14 +1,13 @@
 ---
-sidebar_position: 6
+sidebar_position: 2
 ---
 
-# Book publishing
+# Company two docs
+
+This section contains examples of my documentation for another software company.
 
 :::note Important message about this Docusaurus portfolio
 
 At this time, this Docusaurus portfolio includes only a subset of content from my full portfolio. To see many more samples of my work, please see [my full portfolio site](https://lookatthem-tech.github.io/portfolio005/Content/Topics/HomePgG.htm).
 
 :::
-
-
-
